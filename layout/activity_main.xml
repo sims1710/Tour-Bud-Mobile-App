@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth.MainActivity"
+    android:background="@color/white"
+    tools:layout_editor_absoluteX="5dp"
+    tools:layout_editor_absoluteY="9dp">
+
+
+    <ImageView
+        android:id="@+id/tourbudlogo"
+        android:layout_width="203dp"
+        android:layout_height="292dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/tourbudlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signUpDirectBTN"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#888B32"
+        android:fontFamily="@font/heavy_futura"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:text="Sign-up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginDirectBTN" />
+
+    <Button
+        android:id="@+id/loginDirectBTN"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#D6D6A1"
+        android:fontFamily="@font/heavy_futura"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="Log-in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/tourbuddiesfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/default_futurabk"
+        android:text="Tour buddies for"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sponexplor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/default_futurabk"
+        android:text="spontaneous explorations"
+        android:textColor="@color/quantum_brown"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tourbuddiesfor" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="383dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/friends" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
